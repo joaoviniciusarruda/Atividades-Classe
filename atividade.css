@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -12,11 +12,18 @@ font-size: 16;
 .colorwhite{
 color: #ccc;
 }
-.background-color{
+.backgroundcolor{
 background-color: #f9f9f9;
 }
-header {
+.colorcinza{
+color: #333;
+}
+header, footer{
     background-color: #333;
+    color: white;
+}
+footer{
+    text-align: center;
 }
 header h1 {
     font-size: 28px;
@@ -30,7 +37,6 @@ section {
 }
 section h2 {
     font-size: 22px;
-    color: #333;
 }
 section div {
     border: 1px solid #ccc;
@@ -38,10 +44,10 @@ section div {
 }
 section div h3 {
     font-size: 18px;
-    color: #333;
 }
-section div p {
-    color: #555;
+section div p aside ul li{
+     color: #555;
+     margin-bottom: 5px;
 }
 section div button {
     padding: 10px 15px;
@@ -53,22 +59,10 @@ section div button {
 aside {
     margin: 20px;
     border: 1px solid #ccc;
-    background-color: #f9f9f9;
 }
 aside h2 {
     font-size: 20px;
-    color: #333;
 }
 aside ul {
     list-style: none;
-    padding: 0;
-}
-aside ul li {
-    color: #555;
-    margin-bottom: 5px;
-}
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
 }
